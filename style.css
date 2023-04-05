@@ -15,6 +15,7 @@
 }
 .row {
     display: flex;
+    margin: 0 -15px;
 } 
 .col-3 {
     max-width: 25%;
@@ -26,5 +27,11 @@
 }
 [class*="col-"] {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px         ;
+}
+.header {
+    display:flex;
+    height: 100px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.75);
 }
